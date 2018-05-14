@@ -72,11 +72,17 @@ Store.prototype.render = function () {
   tableElement.append(tableRow);
 };
 
+// ==================================================================
+
 function renderAllStores() {
   var tableElement = document.getElementById('stores');
   var tableRow = document.createElement('tr');
+
+// ==================================================================
   
   
+
+
   // =========================Build Header Row=========================
   
   var storeLocationsTableData = document.createElement('td');
@@ -94,7 +100,38 @@ function renderAllStores() {
   var storeTotalsTableData = document.createElement('td');
   storeTotalsTableData.textContent = 'Daily Total';
   tableRow.append(storeTotalsTableData);
+
+  // ======================Build Hourly Totals (across all stores)=======================
+
+  // var tableData = document.createElement('th');
+  // var tableRow = document.createElement('tr');
+  // tableData.textContent = 'Hourly Totals';
+  // tableRow.append(tableData);
+
   
+
+  // var allStoresHourlyTotalsTd = document.createElement('td');
+
+  // allStoresHourlyTotalsTd.textContent = 'Hourly Totals';
+  // tableRow.append(allStoresHourlyTotalsTd);
+
+  // for (var i = 0; i < stores.length; i++) {
+  //   var hourlyTotals = 0;
+  //   var tableData = document.createElement('td');
+  //   for (var j = 0; j < hours.length; j++) {
+  //     hourlyTotals = hourlyTotals + stores[i].CookiesSoldEachHour[j];
+  //   }
+  //   tableData.textContent = '' + hourlyTotals;
+  //   tableRow.append(tableData);
+  // }
+
+  // var emptyTableData = document.createElement('td');
+  // var allStoresHourlyTotalsTd.textContent = 'Empty';
+  // tableRow.append(emptyTableData);
+
+
+  // =============================================
+
   tableElement.append(tableRow);
   // =========================End Build Header Row=========================
 
@@ -104,6 +141,7 @@ function renderAllStores() {
 
   
 }
+
 
 // new stores
 var pikePlaceMarket = new Store('Pike Place Market', 23, 65, 6.3);
