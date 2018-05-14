@@ -1,0 +1,152 @@
+/* ============COLORS=============
+-----From the salmon image----
+Tan #BCA575
+Greenish Tan #7B6A49
+Light Orange #BC7140
+Dark Orange #8D422A
+Light Green #705E3A
+Dark Green #292C25
+------------------------------
+
+-----From cliff walk photo-----
+Coral #C38B80
+Army Green #454627
+Almost Black Green #1C1D0F
+
+------From Kaliningrad waves photo----
+Light Tan #C3B4A1
+Dark Tan #8E7C68
+Light Brown #746455
+Light Blue #85A1AD
+Medium Blue #507A8D
+Navy Blue #1B3647
+ */
+
+
+/* ======================================================== */
+/* HEADER STYLES */
+/* ======================================================== */
+
+body {
+    font: 15px/1.5 "Times New Roman", Times, serif;
+    background: #C3B4A1;
+    background-image: url("../img/subtle_white_mini_waves.png");
+    background-repeat: repeat;
+    background-blend-mode: multiply;
+}
+
+body h1, h2, h3, h4, h5, h6, p {
+    color: #1C1D0F;
+}
+
+header {
+    height: 100px;
+    /* background: #8E7C68; */
+    background-image: url("../img/debut_dark.png");
+    /* background-blend-mode: lighten; */
+}
+
+
+nav {
+    width: 960px;
+    margin: 0px auto;
+}
+
+nav img {
+    float: left;
+    margin-top: 15px;
+    margin-right: 30px;
+    width: 200px;
+}
+
+nav li {
+    display: inline-block;
+    margin-top: 40px;
+    margin-right: 90px;
+}
+
+nav a {
+    font: 15px Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #8D422A;
+    cursor: pointer;
+}
+
+nav a:hover {
+    color: fff;
+}
+
+
+/* ======================================================== */
+/* MAIN STYLES */
+/* ======================================================== */
+
+main {
+    width: 960px;
+    margin: 30px auto;
+}
+
+main .hero {
+    /* width: 960px; */
+    height: 450px;
+}
+
+section img {
+    float: left;
+}
+
+section div {
+    width: calc(50% - 30px);
+    float: left;
+    margin-left: 30px;
+    /* margin-left: 30px; */
+}
+
+h1 {
+    font-size: 200%;
+}
+  
+h2 {
+    font-size: 150%;
+}
+  
+h3 {
+    font-size: 112.5%
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+section p {
+    margin-top: 10px;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 24px;
+    overflow: auto;
+    height: 314px;
+}
+
+button {
+    border: none;
+    padding: 10px 30px;
+    color: #fff;
+    background: #000;
+    font-size: 18px;
+    margin-top: 15px;
+    transition: 350ms;
+    cursor: pointer;
+}
+
+button:hover {
+    background: green;
+}
+
+
+footer {
+    background: #8E7C68;
+    height: 150px;
+    clear: both;
+    margin-top: 30px;
+}

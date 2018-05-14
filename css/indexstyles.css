@@ -1,0 +1,8 @@
+main li {
+    float: left;
+    margin: 30px 30px 30px 0px;
+}
+
+main li:last:child {
+    margin: right 0px;
+}
