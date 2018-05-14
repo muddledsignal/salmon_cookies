@@ -1,0 +1,51 @@
+/* ================sales.html================ */
+
+body {
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+}
+
+table {
+    border: groove black 3px;
+    border-spacing: collapse;
+    background-color: seashell;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    padding: 10px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    /* padding: 10px; */
+}
+
+td {
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    /* margin: 10px; */
+    /* border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: px; */
+}
+
+#addStoreForm {
+    border: groove black 3px;
+    border-spacing: collapse;
+    background-color: seashell;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    padding: 10px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+legend {
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: px;
+}
